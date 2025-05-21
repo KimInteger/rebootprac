@@ -1,0 +1,1 @@
+console.log('module화 작업 밑준비')
