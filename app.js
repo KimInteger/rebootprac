@@ -7,6 +7,12 @@ const PORT = 3000;
 const server = http.createServer((req,res)=>{
   console.log(` 요청 확인 : ${req.url}`);
 
+  if(req.url==='/favicon.ico'){
+    res.writeHead(204);
+    res.end();
+    return;
+  }
+
   let filePath = req.url === '/' ? './index.html' : `.${req.url}`;
   filePath = path.join(__dirname, filePath);
   console.log(filePath)
