@@ -18,6 +18,6 @@
   "homepage": "https://github.com/KimInteger/rebootprac#readme",
   "description": "",
   "dependencies": {
-    "mime": "^4.0.7"
+    "mime-types": "^3.0.1"
   }
 }
