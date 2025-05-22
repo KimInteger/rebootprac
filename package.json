@@ -16,5 +16,8 @@
     "url": "https://github.com/KimInteger/rebootprac/issues"
   },
   "homepage": "https://github.com/KimInteger/rebootprac#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "mime": "^4.0.7"
+  }
 }
